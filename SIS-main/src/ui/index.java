@@ -286,7 +286,7 @@ public class index extends JFrame {
 	//≤È’“
 	static	private void check(DefaultTableModel m,String id) throws IOException
 	{ 	
-		//if(is) {
+		if(is) {
 		String fileName = "student.txt";
 		Student student = new Student();
 		ArrayList<Student> array = new ArrayList<Student>();
@@ -333,14 +333,14 @@ public class index extends JFrame {
 			}
 		}
 		
-		//is=false;
-	/*}else {
+		is=false;
+	}else {
 		for(int i=0;i<=m.getRowCount();i++)
 		{
 			m.removeRow(i);
 		}
 		is=true;
-	}*/
+	}
 	}
 	
 	//…æ≥˝
